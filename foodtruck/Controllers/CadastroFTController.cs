@@ -9,7 +9,7 @@ namespace FoodTruck.Controllers
     public class CadastroFTController : Controller
     {
         // GET: CadastroFT
-        public ActionResult CadstroFT()
+        public ActionResult CadastroFT()
         {
             return View();
         }
