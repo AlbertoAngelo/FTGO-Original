@@ -123,7 +123,6 @@
     <Content Include="Content\bootstrap.min.css" />
     <Content Include="CSS\estrelaVotação.css" />
     <Content Include="CSS\Login.css" />
-    <Content Include="CSS\StyleSheet1.css" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />
     <Content Include="JavaScript\BuscarCEP.js" />
@@ -150,6 +149,7 @@
   <ItemGroup>
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="Controllers\Avaliação_SemLoginController.cs" />
+    <Compile Include="Controllers\CadastroFTController.cs" />
     <Compile Include="Controllers\Index_SemLoginController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
@@ -164,6 +164,7 @@
     </Content>
     <Content Include="scripts\jquery-1.9.1.min.map" />
     <Content Include="Views\Avaliação_SemLogin\AvaliarFT_SL.cshtml" />
+    <Content Include="Views\CadastroFT\CadastroFT.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
