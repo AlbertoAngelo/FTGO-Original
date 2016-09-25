@@ -121,7 +121,6 @@
     <Content Include="Content\bootstrap-theme.min.css" />
     <Content Include="Content\bootstrap.css" />
     <Content Include="Content\bootstrap.min.css" />
-    <Content Include="CSS\corFundo.css" />
     <Content Include="CSS\estrelaVotação.css" />
     <Content Include="CSS\Login.css" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
