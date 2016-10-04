@@ -1,0 +1,58 @@
+﻿
+@{
+    ViewBag.Title = "CadastroUsuario";
+    Layout = "~/Views/Shared/_Layout_SemLogin.cshtml";
+}
+
+<h2>CadastroUsuario</h2>
+<div class="col-md-6" style="margin-left:150px">
+    <h3 class="page-header">Realize seu Cadastro para participar de promoções</h3>
+    <div class="row">
+        <div class="form-group col-md-10">
+            <label for="campoNome">Nome Completo</label>
+            <input type="text" class="form-control" id="campoNome">
+        </div>
+
+        <div class="form-group col-md-10">
+            <label for="campoEmail">Endereço de e-mail</label>
+            <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Email">
+        </div>
+        <div class="form-group col-md-10">
+            <label for="campoSenha">Senha</label>
+            <input type="password" class="form-control" id="campoPassword1" placeholder="Password">
+        </div>
+
+        <div class="form-group col-md-10">
+            <label for="campoDataNasc">Data de Nascimento</label>
+            <input type="date" name="validade">
+        </div>
+        <div class="control-group col-md-10">
+            <label class="control-label">Sexo</label>
+            <div class="controls">
+                <label class="radio">
+                    <input type="radio" name="sexo" value="Masculino" checked="checked">
+                    Masculino
+                </label>
+                <label class="radio">
+                    <input type="radio" name="sexo" value="Feminino">
+                    Feminino
+                </label>
+            </div>
+        </div>
+        <div class="form-group col-md-10">
+            <label for="campoEndereco">Endereço</label>
+            <input type="text" class="form-control" id="campo3">
+        </div>
+
+        <div class="form-group col-md-10">
+            <label for="campoCidade">Cidade</label>
+            <input type="text" class="form-control" id="campo3">
+            <br />
+            <a href="/FTgo/index">
+                <button type="button" class="btn btn-success" style="margin-left:475px">Salve</button>
+            </a>
+
+        </div>
+    </div>
+</div>
+</form>
