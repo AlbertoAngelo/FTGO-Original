@@ -148,6 +148,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="App_Start\RouteConfig.cs" />
+    <Compile Include="Controllers\AboutController.cs" />
     <Compile Include="Controllers\Avaliação_SemLoginController.cs" />
     <Compile Include="Controllers\CadastroFTController.cs" />
     <Compile Include="Controllers\CadastroUsuarioController.cs" />
@@ -169,6 +170,7 @@
     <Content Include="Views\CadastroFT\CadastroFT.cshtml" />
     <Content Include="Views\TodosFT_SemLogin\TodosFT_SemLogin.cshtml" />
     <Content Include="Views\CadastroUsuario\CadastroUsuario.cshtml" />
+    <Content Include="Views\About\About.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
