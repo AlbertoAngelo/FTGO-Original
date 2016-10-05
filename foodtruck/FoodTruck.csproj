@@ -152,6 +152,7 @@
     <Compile Include="Controllers\Avaliação_SemLoginController.cs" />
     <Compile Include="Controllers\CadastroFTController.cs" />
     <Compile Include="Controllers\CadastroUsuarioController.cs" />
+    <Compile Include="Controllers\Index_ComLoginController.cs" />
     <Compile Include="Controllers\Index_SemLoginController.cs" />
     <Compile Include="Controllers\TodosFT_SemLoginController.cs" />
     <Compile Include="Global.asax.cs">
@@ -171,6 +172,8 @@
     <Content Include="Views\TodosFT_SemLogin\TodosFT_SemLogin.cshtml" />
     <Content Include="Views\CadastroUsuario\CadastroUsuario.cshtml" />
     <Content Include="Views\About\About.cshtml" />
+    <Content Include="Views\Shared\_Layout_ComLogin.cshtml" />
+    <Content Include="Views\Index_ComLogin\Index_ComLogin.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
