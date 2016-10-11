@@ -56,24 +56,24 @@
                                 <div id="div-forms">
 
                                     <!-- Begin # Login Form -->
-                                    <form id="login-form">
-                                        <div class="modal-body">
-                                            <div id="div-login-msg">
-                                                <div id="icon-login-msg" class="glyphicon glyphicon-chevron-right"></div>
-                                                <span id="text-login-msg">Type your Email and password.</span>
-                                            </div>
-                                            <label>Email:</label>
-                                            <input type="email" name="email" size="30" required />
-                                            <br/>
-                                            <label>Senha:</label>
-                                            <input type="password" name="senha" size="30" required />
+                                    <form action="/Index_ComLogin/Index_ComLogin" method="post">
+                                        <div>
+                                            <label>Email</label>
+                                            <input type="email" name="email" required />
                                         </div>
-                                        <div class="modal-footer">
-                                            <div>
-                                                <button type="submit" class="btn btn-primary btn-lg btn-block">Login</button>
-                                            </div>
-                                           
+
+                                        <div>
+                                            <label>Senha</label>
+                                            <input type="password" name="senha" required />
                                         </div>
+
+                                        <a href="/Index_ComLogin/Index_ComLogin">
+                                            <button type="submit" class="btn btn-primary">
+                                               
+                                                Entrar
+                                            </button>
+                                        </a>
+
                                     </form>
                                     <!-- End # Login Form -->
                                     <!-- Begin | Lost Password Form -->
