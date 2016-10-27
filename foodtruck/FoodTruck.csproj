@@ -127,6 +127,7 @@
     <Content Include="Global.asax" />
     <Content Include="JavaScript\BuscarCEP.js" />
     <Content Include="JavaScript\Login.js" />
+    <Content Include="pexels-photo-70497.jpeg" />
     <Content Include="scripts\ai.0.15.0-build58334.js" />
     <Content Include="scripts\ai.0.15.0-build58334.min.js" />
     <Content Include="fonts\glyphicons-halflings-regular.woff2" />
