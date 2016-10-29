@@ -154,6 +154,7 @@
     <Compile Include="Controllers\Avaliação_SemLoginController.cs" />
     <Compile Include="Controllers\CadastroFTController.cs" />
     <Compile Include="Controllers\CadastroUsuarioController.cs" />
+    <Compile Include="Controllers\ConfirmarCadFTController.cs" />
     <Compile Include="Controllers\DonoFtController.cs" />
     <Compile Include="Controllers\Index_ComLoginController.cs" />
     <Compile Include="Controllers\Index_SemLoginController.cs" />
@@ -186,6 +187,7 @@
     <Content Include="Views\DonoFt\DonoFT.cshtml" />
     <Content Include="Views\Usuario\Usuario.cshtml" />
     <Content Include="Views\About_ComLogin\About_ComLogin.cshtml" />
+    <Content Include="Views\ConfirmarCadFT\ConfirmarCad_FT.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
