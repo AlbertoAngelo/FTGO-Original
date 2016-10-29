@@ -150,6 +150,7 @@
   <ItemGroup>
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="Controllers\AboutController.cs" />
+    <Compile Include="Controllers\About_ComLoginController.cs" />
     <Compile Include="Controllers\Avaliação_SemLoginController.cs" />
     <Compile Include="Controllers\CadastroFTController.cs" />
     <Compile Include="Controllers\CadastroUsuarioController.cs" />
@@ -164,7 +165,6 @@
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
-    <Compile Include="Models\ModelBase.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -185,6 +185,7 @@
     <Content Include="Views\ProcurarFT_SemLogin\ProcurarFT_SemLogin.cshtml" />
     <Content Include="Views\DonoFt\DonoFT.cshtml" />
     <Content Include="Views\Usuario\Usuario.cshtml" />
+    <Content Include="Views\About_ComLogin\About_ComLogin.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -194,6 +195,7 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
+    <Folder Include="Models\" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

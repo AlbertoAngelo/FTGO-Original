@@ -6,14 +6,12 @@ using System.Web.Mvc;
 
 namespace FoodTruck.Controllers
 {
-    public class AboutController : Controller
+    public class About_ComLoginController : Controller
     {
-        // GET: About
-        public ActionResult About()
+        // GET: About_ComLogin
+        public ActionResult About_ComLogin()
         {
             return View();
         }
-
- 
     }
 }
