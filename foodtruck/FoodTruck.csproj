@@ -151,6 +151,7 @@
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="Controllers\AboutController.cs" />
     <Compile Include="Controllers\About_ComLoginController.cs" />
+    <Compile Include="Controllers\Avaliação_ComLoginController.cs" />
     <Compile Include="Controllers\Avaliação_SemLoginController.cs" />
     <Compile Include="Controllers\CadastroFTController.cs" />
     <Compile Include="Controllers\CadastroUsuarioController.cs" />
@@ -188,6 +189,7 @@
     <Content Include="Views\Usuario\Usuario.cshtml" />
     <Content Include="Views\About_ComLogin\About_ComLogin.cshtml" />
     <Content Include="Views\ConfirmarCadFT\ConfirmarCad_FT.cshtml" />
+    <Content Include="Views\Avaliação_ComLogin\AvailarFT_ComLogin.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
