@@ -159,6 +159,7 @@
     <Compile Include="Controllers\ProcurarFT_SemLoginController.cs" />
     <Compile Include="Controllers\TodosFT_ComLoginController.cs" />
     <Compile Include="Controllers\TodosFT_SemLoginController.cs" />
+    <Compile Include="Controllers\UsuarioController.cs" />
     <Compile Include="Entity\Usuario.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
@@ -182,6 +183,7 @@
     <Content Include="Views\TodosFT_ComLogin\TodosFT_ComLogin.cshtml" />
     <Content Include="Views\ProcurarFT_SemLogin\ProcurarFT_SemLogin.cshtml" />
     <Content Include="Views\DonoFt\DonoFT.cshtml" />
+    <Content Include="Views\Usuario\Usuario.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
