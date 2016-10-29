@@ -159,6 +159,7 @@
     <Compile Include="Controllers\ProcurarFT_SemLoginController.cs" />
     <Compile Include="Controllers\TodosFT_ComLoginController.cs" />
     <Compile Include="Controllers\TodosFT_SemLoginController.cs" />
+    <Compile Include="Entity\Usuario.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
